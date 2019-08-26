@@ -1,0 +1,23 @@
+# Setup
+title: Will Rowe
+email: will.rowe@stfc.ac.uk
+
+description: personal website
+baseurl: ""
+url: "https://will-rowe.github.io" # the base hostname & protocol for your site
+
+# Social links
+twitter_username:     wil_rowe
+github_username:      will-rowe
+linkedin_username:    will-rowe-13219b136
+
+# Markdown
+markdown: kramdown
+kramdown:
+   syntax_highlighter_opts:
+      disable : true
+
+# Slides
+include: ['_slides']
+collections:
+  - slides
